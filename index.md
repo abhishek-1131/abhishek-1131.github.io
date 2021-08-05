@@ -7,7 +7,7 @@ title: Home
 <style type="text/css">
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 #app {
-  font-size: 35px;
+  font-size: 30px;
   line-height: 50px;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
@@ -19,7 +19,7 @@ strong {
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <script type="text/javascript">
 var app = document.getElementById('app');
-var typewriter = new Typewriter(app, { loop: true, delay: 60, });
+var typewriter = new Typewriter(app, { loop: true, delay: 65, });
 typewriter
   .pauseFor(1000)
   .typeString('cat <strong> /var/log/life </strong>')
