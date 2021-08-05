@@ -19,17 +19,17 @@ strong {
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <script type="text/javascript">
 var app = document.getElementById('app');
-var typewriter = new Typewriter(app, { loop: true, delay: 65, });
+var typewriter = new Typewriter(app, { loop: true, delay: 68, });
 typewriter
   .pauseFor(1000)
   .typeString('cat <strong> /var/log/life </strong>')
   .typeString('<br/>')
   .pauseFor(1000)
   .typeString('<strong> <span style="color: #27ae60;">Data | Code | Networks | Math</span> </strong>')
-  .pauseFor(1000)
+  .pauseFor(1800)
   .deleteChars(30)
   .typeString('<strong> <span style="color: #0096FF;">Guitar | Music Theory</span></strong>')
-  .pauseFor(1000)
+  .pauseFor(1800)
   .deleteChars(22)
   .typeString('<strong> <span style="color: #cb4154;">Unix | Nvim</span></strong>')
   .pauseFor(1500)
