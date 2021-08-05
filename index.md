@@ -19,7 +19,7 @@ strong {
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <script type="text/javascript">
 var app = document.getElementById('app');
-var typewriter = new Typewriter(app, { loop: true, delay: 55, });
+var typewriter = new Typewriter(app, { loop: true, delay: 60, });
 typewriter
   .pauseFor(1000)
   .typeString('cat <strong> /var/log/life </strong>')
@@ -32,7 +32,7 @@ typewriter
   .pauseFor(1000)
   .deleteChars(22)
   .typeString('<strong> <span style="color: #cb4154;">Unix | Nvim</span></strong>')
-  .pauseFor(1000)
+  .pauseFor(1500)
   .start();
 </script>
 
