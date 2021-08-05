@@ -2,12 +2,12 @@
 permalink:          blog/:categories/:title
 
 # Setup
-title:               Alwyn Mathew
-tagline:             IIT Patna
-url:                 "https://alwynm.github.io"
+title:               Abhishek Deshpande
+tagline:             Home
+url:                 "https://abhishek-1131.github.io/"
 paginate:            1
 baseurl:             ""
-#baseurl:             https://alwynm.github.io
+#baseurl:             https://abhishek-1131.github.io/
 
 # Assets
 #
@@ -18,9 +18,9 @@ sass:
 
 # About/contact
 author:
-  name:              Alwyn Mathew
-  url:               https://twitter.com/alwyn_mathew
-  email:             alwyn.pcs16@iitp.ac.in
+  name:              Abhishek Deshpande
+  url:               https://twitter.com/kehsihba31
+  email:             abhishek.deshpande1131@gmail.com
 
 # Custom vars
 version:             2.0.0
@@ -36,16 +36,17 @@ gems:
 timezone: Asia/Kolkata
 
 pages_list:
-  Publication: '/pub'
-  Talks: '/talks'
-  Teaching: '/teaching'
   Blog: '/blog'
-#  Misc: '/misc'
-  Resume: '/resume'
+  Bookshelf: '/bookshelf'
+  Software : '/software'
+  Questions : '/questions'
+  Music : '/music'
+  Personal : '/personal'
+  # Misc: '/misc'
 
-twitter_username:     alwyn_mathew
-github_username:      alwynmathew
-linkedin_username:    alwynmathew
+twitter_username:     kehsihba31
+github_username:      abhishek-1131
+linkedin_username:    abhishek-deshpande-a01132179
 
 markdown: kramdown
 

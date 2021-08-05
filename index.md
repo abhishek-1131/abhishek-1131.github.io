@@ -19,56 +19,30 @@ strong {
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <script type="text/javascript">
 var app = document.getElementById('app');
-var typewriter = new Typewriter(app, { loop: true, delay: 75, });
+var typewriter = new Typewriter(app, { loop: true, delay: 55, });
 typewriter
   .pauseFor(1000)
-  .typeString('Hi, I\'m <strong>Alwyn</strong>')
+  .typeString('cat <strong> /var/log/life </strong>')
   .typeString('<br/>')
   .pauseFor(1000)
-  .typeString('I love <strong> <span style="color: #27ae60;">Computer Vision</span> </strong>')
-  .pauseFor(2000)
-  .deleteChars(16)
-  .typeString('<strong> <span style="color: #F0A202 ;">Adversarial Learning</span></strong>')
-  .pauseFor(2000)
-  .deleteChars(21)
-  .typeString('<strong> <span style="color: #D81159 ;">RL</span></strong>')
-  .pauseFor(2000)
+  .typeString('<strong> <span style="color: #27ae60;">Data | Code | Networks | Math</span> </strong>')
+  .pauseFor(1000)
+  .deleteChars(30)
+  .typeString('<strong> <span style="color: #0096FF;">Guitar | Music Theory</span></strong>')
+  .pauseFor(1000)
+  .deleteChars(22)
+  .typeString('<strong> <span style="color: #cb4154;">Unix | Nvim</span></strong>')
+  .pauseFor(1000)
   .start();
 </script>
 
-PhD candidate in Computer Science & Engineering at
-[IIT Patna](https://www.iitp.ac.in) under the supervision of 
-[Dr. Jimson Mathew](https://www.iitp.ac.in/index.php/en-us/people/faculty/2-uncategorised/212-view-profile-23). 
-I'm primarily interested in replicating biological visual system 
-to a computer system. My current research goal is to build 
-learning algorithms that can perceive depth without supervision.
-
-## News
+Incoming MSc Computing Science student at [SFU](https://www.sfu.ca/computing.html). I'm primarily interested in modeling contagion spread using (location-aware) Network Graphs, Machine Learning and Topological Data Analysis. -----------
+Outside work, I spend my time [reading](https://abhishek-1131.github.io/bookshelf) and playing the [guitar](https://abhishek-1131.github.io/music).
+## Updates
 
 <ul>
-{% for item in site.data.newsarchive.news limit:5 %}
+{% for item in site.data.updates_archive.updates limit:5 %}
 <li>{{item}}</li>
 {% endfor %}
 </ul>
 <p style="text-align:right"><a href="/newsarchive">for more news...</a></p>
-
-## Latest publications
-
-<ul>
-{% for item in site.data.pubs.journal limit:2 %}
-<li>{{item}}</li>
-{% endfor %}
-{% for item in site.data.pubs.conference limit:2 %}
-<li>{{item}}</li>
-{% endfor %}
-</ul>
-<p style="text-align:right"><a href="/pub">for full list...</a></p>
-
-## Latest talks
-
-<ul>
-{% for item in site.data.talks.slides limit:2 %}
-<li>{{item}}</li>
-{% endfor %}
-</ul>
-<p style="text-align:right"><a href="/talks">for more details...</a></p>
