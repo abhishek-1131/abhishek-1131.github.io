@@ -3,7 +3,7 @@
 <style type="text/css">
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 #app {
-  font-size: 35px;
+  font-size: 30px;
   line-height: 50px;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
@@ -17,20 +17,20 @@ strong {
 
 <script type="text/javascript">
 var app = document.getElementById('app');
-var typewriter = new Typewriter(app, { loop: true, delay: 55, });
+var typewriter = new Typewriter(app, { loop: true, delay: 68, });
 typewriter
   .pauseFor(1000)
   .typeString('cat <strong> /var/log/life </strong>')
   .typeString('<br/>')
   .pauseFor(1000)
   .typeString('<strong> <span style="color: #27ae60;">Data | Code | Networks | Math</span> </strong>')
-  .pauseFor(1000)
+  .pauseFor(1800)
   .deleteChars(30)
   .typeString('<strong> <span style="color: #0096FF;">Guitar | Music Theory</span></strong>')
-  .pauseFor(1000)
+  .pauseFor(1800)
   .deleteChars(22)
   .typeString('<strong> <span style="color: #cb4154;">Unix | Nvim</span></strong>')
-  .pauseFor(1000)
+  .pauseFor(1500)
   .start();
 </script>
 
