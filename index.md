@@ -28,7 +28,7 @@ typewriter
   .typeString('<strong> <span style="color: #27ae60;">Data | Code | Networks | Math</span> </strong>')
   .pauseFor(1800)
   .deleteChars(30)
-  .typeString('<strong> <span style="color: #0096FF;">Guitar | Music Theory</span></strong>')
+  .typeString('<strong> <span style="color: #F0A202;">Guitar | Music Theory</span></strong>')
   .pauseFor(1800)
   .deleteChars(22)
   .typeString('<strong> <span style="color: #cb4154;">Unix | Nvim</span></strong>')
