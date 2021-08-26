@@ -30,7 +30,7 @@ typewriter
   .deleteChars(30)
   .typeString('<strong> <span style="color: #F0A202;">Guitar</span></strong>')
   .pauseFor(1800)
-  .deleteChars(22)
+  .deleteChars(8)
   .typeString('<strong> <span style="color: #cb4154;">Unix | Nvim</span></strong>')
   .pauseFor(1500)
   .start();
