@@ -28,7 +28,7 @@ typewriter
   .typeString('<strong> <span style="color: #27ae60;">Data | Code | Networks | Math</span> </strong>')
   .pauseFor(1800)
   .deleteChars(30)
-  .typeString('<strong> <span style="color: #F0A202;">Guitar | Music Theory</span></strong>')
+  .typeString('<strong> <span style="color: #F0A202;">Guitar</span></strong>')
   .pauseFor(1800)
   .deleteChars(22)
   .typeString('<strong> <span style="color: #cb4154;">Unix | Nvim</span></strong>')
@@ -36,8 +36,7 @@ typewriter
   .start();
 </script>
 
-Incoming MSc Computing Science student at [SFU](https://www.sfu.ca/computing.html). I'm primarily interested in modeling contagion spread using (location-aware) Network Graphs, Machine Learning and Topological Data Analysis. -----------
-Outside work, I spend my time [reading](https://abhishek-1131.github.io/bookshelf) and playing the [guitar](https://abhishek-1131.github.io/music).
+Incoming MSc Computing Science student at [SFU](https://www.sfu.ca/computing.html). I'm primarily interested in modeling contagion spread using (location-aware) Network Graphs, Machine Learning and Topological Data Analysis. Outside work, I spend my time [reading](https://abhishek-1131.github.io/bookshelf) and playing the [guitar](https://abhishek-1131.github.io/music).
 ## Updates
 
 <ul>

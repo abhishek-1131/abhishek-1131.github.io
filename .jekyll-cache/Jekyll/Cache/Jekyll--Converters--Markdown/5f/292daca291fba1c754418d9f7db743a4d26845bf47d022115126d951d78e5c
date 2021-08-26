@@ -1,0 +1,51 @@
+I"�<!--adapted from https://github.com/tameemsafi/typewriterjs You got it.-->
+<div id="app" style="height:150px;"></div>
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+#app {
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+strong {
+  font-weight: 700;
+}
+</style>
+
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+<script type="text/javascript">
+var app = document.getElementById('app');
+var typewriter = new Typewriter(app, { loop: true, delay: 68, });
+typewriter
+  .pauseFor(1000)
+  .typeString('cat <strong> /var/log/life </strong>')
+  .typeString('<br/>')
+  .pauseFor(1000)
+  .typeString('<strong> <span style="color: #27ae60;">Data | Code | Networks | Math</span> </strong>')
+  .pauseFor(1800)
+  .deleteChars(30)
+  .typeString('<strong> <span style="color: #F0A202;">Guitar | Music Theory</span></strong>')
+  .pauseFor(1800)
+  .deleteChars(22)
+  .typeString('<strong> <span style="color: #cb4154;">Unix | Nvim</span></strong>')
+  .pauseFor(1500)
+  .start();
+</script>
+
+<p>Incoming MSc Computing Science student at <a href="https://www.sfu.ca/computing.html">SFU</a>. I’m primarily interested in modeling contagion spread using (location-aware) Network Graphs, Machine Learning and Topological Data Analysis. ———–
+Outside work, I spend my time <a href="https://abhishek-1131.github.io/bookshelf">reading</a> and playing the <a href="https://abhishek-1131.github.io/music">guitar</a>.</p>
+<h2 id="updates">Updates</h2>
+
+<ul>
+
+<li><a href="http://exploringtheunseen.algoasylum.com/2020/06/01/Intro.html">Exploring The Unseen!</a> Will be writing posts involving intuitive plots and data-driven insights on the overlap of (Air) Pollution, Economics, COVID19, Benford's Law and a lot of other exciting stuff! Watch <a href="http://exploringtheunseen.algoasylum.com/">this</a> space to know more.</li>
+
+<li>We're (virtually) presenting our work involving internal workings of UMAP (Uniform Manifold Approximation and Projection) for Dimensionality Reduction at <a href="https://in.pycon.org/cfp/2020/proposals/understanding-umap-the-internal-workings-of-a-state-of-the-art-clustering-algorithm~e1w1m/">PyCon India 2020</a> on 3rd October 2020. (Work with Soham Joshi, <a href="https://vrd1243.github.io/">Varad Deshmukh</a>, <a href="https://www.linkedin.com/in/shrirang-karandikar-17298a25/">Shrirang Karandikar</a>)</li>
+
+<li>Our experiments on simulating epidemics using Topological Data Analysis were showcased at the <a href="https://www.intel.com/content/www/us/en/artificial-intelligence/aidc-summit-series.html">Intel India AI Dev Summit</a> by <a href="https://www.linkedin.com/in/shrirang-karandikar-17298a25/">Shrirang Karandikar</a>. (Work with Soham Joshi, <a href="https://vrd1243.github.io/">Varad Deshmukh</a>)</li>
+
+</ul>
+<p style="text-align:right"><a href="/newsarchive">for more news...</a></p>
+:ET
